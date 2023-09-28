@@ -4,7 +4,11 @@ name: Build LaTeX document
 # is triggered by the "push" event. 
 # This means that the workflow will run automatically every time there is a push to the GitHub repository where this workflow is defined.
 
-on: [push]
+# ignores any markdown files to avoid triggering actions on documentation pushes
+on: 
+  push:
+    paths-ignore:
+      - '**.md'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 
