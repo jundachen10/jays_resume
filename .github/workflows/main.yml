@@ -1,0 +1,39 @@
+name: Build LaTeX document
+
+# Controls when the workflow will run
+# is triggered by the "push" event. 
+# This means that the workflow will run automatically every time there is a push to the GitHub repository where this workflow is defined.
+
+on: [push]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+
+jobs:
+  Build_LaTeX_Resume:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Compile Resume
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: resume.tex
+          compiler: pdflatex
+          args: -interaction=nonstopmode -shell-escape
+
+      - name: Commit Resume
+        run: |
+          mv resume.pdf Jay_Chen_Resume.pdf
+          git config --global user.name "jundachen10/jays_resume"
+          git config --global user.email "jundachen10@gmail.com"
+          git add .
+          git commit -m ':hammer: Generate Resume' || echo
+          git push
+
+# git config --global user.name is used to set or configure the global user name for Git, which is associated with your commits when you make changes to a Git repository.
+# git config --global user.email is used to set or configure the global email address associated with your Git commits.
+
+#WHAT DO THESE DO?!?
+#checks out the current repo
+#name: Set up Git repository uses: actions/checkout@v2
