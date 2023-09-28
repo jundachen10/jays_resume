@@ -8,9 +8,10 @@ latex based resume
 - modular sections for maintainability
 - github actions to render pdf version
 
-## Challenges
+## Challenges 9.28.23
 - when deploying the action I ran into an PAT Token auth issue. My existing PAT did not have workflow access.
-## Solution
+- Github actions Node12 deprecated and uses Node16
+## Solutions 9.28.23
 - generate a new PAT with workflows access
 - change the current repo remote path to HTTPS
 - load the new PAT in the command line
