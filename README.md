@@ -1,13 +1,18 @@
 # jays_resume
-latex based resume
-
 ## Features
-- Latex based resume
-
+- LaTeX resume
+- Github actions
+- Generates pdf resume file with each commit
+- Modular structure for easier maintainence
+## What I learned
+- Github Actions triggers. In this repo we trigger the action on a push while ignoring triggers on markdown files with the paths-ignore: attribute.
+- Refactor out components in a LaTeX document by using \input{src/NAME}.
+- The Yaml actions file and creating jobs that run as well as multi line run commands.
+- Refreshed myself on how to deal with divergent branches. There's an issue where the action will auto generate .aux and .log files and push to the repo. If I don't pull these changes from the repo to the local, then a merge conflict can result.
+- How to set up Personal Access Tokens that work with Actions, and how to load the token into the repo using the command line.
 ## Planned Features
-- modular sections for maintainability
-- github actions to render pdf version
-
+- Automated deploy using actions on github pages.
+- Look to include a pull command in the yaml file.
 ## Challenges 9.28.23
 - when deploying the action I ran into an PAT Token auth issue. My existing PAT did not have workflow access.
 - github actions Node12 deprecated and uses Node16
