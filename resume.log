@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  28 SEP 2023 21:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  28 SEP 2023 23:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -377,21 +377,21 @@ Package hyperref Info: Link coloring OFF on input line 69.
 \c@mv@boldtabular=\count285
  (./src/heading.tex
 LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 3.
+(Font)              scaled to size 10.95pt on input line 4.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 3.
+(Font)              scaled to size 24.88pt on input line 4.
 
 
 LaTeX Font Warning: Font shape `OT1/lato-TLF/b/sc' undefined
-(Font)              using `OT1/lato-TLF/b/n' instead on input line 3.
+(Font)              using `OT1/lato-TLF/b/n' instead on input line 4.
 
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
+(Font)              scaled to size 10.0pt on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
+(Font)              <5> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -424,10 +424,11 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 )
 (./src/projects.tex
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 1.
+(Font)              scaled to size 10.95pt on input line 3.
+) (./src/skillz.tex
 LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
-) (./src/skillz.tex) (./src/edu.tex
+(Font)              scaled to size 10.0pt on input line 7.
+) (./src/edu.tex
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -458,11 +459,11 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  9E007BCBDDCAA05DFF673A7EFC2E3494;337.
  ) 
 Here is how much of TeX's memory you used:
- 11296 strings out of 476047
- 182472 string characters out of 5790254
- 1886248 words of memory out of 5000000
+ 11297 strings out of 476047
+ 182497 string characters out of 5790254
+ 1885248 words of memory out of 5000000
  31543 multiletter control sequences out of 15000+600000
- 553526 words of font info for 65 fonts, out of 8000000 for 9000
+ 553863 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,259b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb><
@@ -470,7 +471,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2023/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (2 pages, 106463 bytes).
+Output written on resume.pdf (2 pages, 106225 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
