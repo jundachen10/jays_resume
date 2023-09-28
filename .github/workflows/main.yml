@@ -31,7 +31,7 @@ jobs:
           git commit -m ':hammer: Generate Resume' || echo
           git push
 
-# git config --global user.name is used to set or configure the global user name for Git, which is associated with your commits when you make changes to a Git repository.
+## git config --global user.name is used to set or configure the global user name for Git, which is associated with your commits when you make changes to a Git repository.
 # git config --global user.email is used to set or configure the global email address associated with your Git commits.
 
 #WHAT DO THESE DO?!?
