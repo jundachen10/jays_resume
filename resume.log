@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  28 SEP 2023 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  28 SEP 2023 23:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -425,10 +425,9 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (./src/projects.tex
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 3.
-) (./src/skillz.tex
 LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 7.
-) (./src/edu.tex
+) (./src/skillz.tex) (./src/edu.tex)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -439,13 +438,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_y72t7m.enc}{/usr/local/texliv
 e/2023/texmf-dist/fonts/enc/dvips/lato/a_vc7epu.enc}{/usr/local/texlive/2023/te
-xmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}])
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./resume.aux)
+xmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}] (./resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -459,22 +452,22 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  9E007BCBDDCAA05DFF673A7EFC2E3494;337.
  ) 
 Here is how much of TeX's memory you used:
- 11297 strings out of 476047
- 182497 string characters out of 5790254
- 1885248 words of memory out of 5000000
+ 11295 strings out of 476047
+ 182466 string characters out of 5790254
+ 1888248 words of memory out of 5000000
  31543 multiletter control sequences out of 15000+600000
- 553863 words of font info for 66 fonts, out of 8000000 for 9000
+ 553526 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,259b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,259b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (2 pages, 106225 bytes).
+Output written on resume.pdf (1 page, 105847 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
