@@ -20,3 +20,8 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+
+# Github Actions
+**/*.out
+**/*.log
+**/*.aux
