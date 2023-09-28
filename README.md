@@ -11,7 +11,7 @@ latex based resume
 ## Challenges 9.28.23
 - when deploying the action I ran into an PAT Token auth issue. My existing PAT did not have workflow access.
 - github actions Node12 deprecated and uses Node16
-
+- new PAT still doesn't work, going to see if repo settings are blocking it.
 ## Solutions 9.28.23
 - generate a new PAT with workflows access
 - change the current repo remote path to HTTPS
