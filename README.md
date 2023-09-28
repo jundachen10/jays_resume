@@ -7,3 +7,15 @@ latex based resume
 ## Planned Features
 - modular sections for maintainability
 - github actions to render pdf version
+
+## Challenges
+- when deploying the action I ran into an PAT Token auth issue. My existing PAT did not have workflow access.
+## Solution
+- generate a new PAT with workflows access
+- change the current repo remote path to HTTPS
+- load the new PAT in the command line
+- here are the commands
+<ul>git remote -v</ul>
+<ul>git remote -v</ul>
+<ul>git remote remove origin</ul>
+<ul>git remote add origin https://MyAuthToken@github.com/MyUserName/MyRepo.git<ul>
