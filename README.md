@@ -17,6 +17,7 @@ latex based resume
 - change the current repo remote path to HTTPS
 - load the new PAT in the command line
 - not only was it the PAT workflow access check box, it was also the repo settings not allowing WRITE access
+
 - here are the commands
 <ul>git remote -v</ul>
 <ul>git remote -v</ul>
