@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  28 SEP 2023 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  28 SEP 2023 20:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -333,7 +333,7 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box55
 )
-No file resume.aux.
+(./resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -354,6 +354,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
+
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
@@ -451,8 +452,8 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  9E007BCBDDCAA05DFF673A7EFC2E3494;337.
  ) 
 Here is how much of TeX's memory you used:
- 11293 strings out of 476047
- 182444 string characters out of 5790254
+ 11295 strings out of 476047
+ 182466 string characters out of 5790254
  1888248 words of memory out of 5000000
  31543 multiletter control sequences out of 15000+600000
  553526 words of font info for 65 fonts, out of 8000000 for 9000
