@@ -3,7 +3,7 @@
 - LaTeX resume
 - Github actions
 - Generates pdf resume file with each commit
-- Modular structure for easier maintainence
+- Modular structure for easier maintenance
 ## What I learned
 - Github Actions triggers. In this repo we trigger the action on a push while ignoring triggers on markdown files with the paths-ignore: attribute.
 - Refactor out components in a LaTeX document by using \input{src/NAME}.
