@@ -1,6 +1,6 @@
 # jays_resume
 ## Features
-- LaTeX resume
+- [**LaTeX**](https://www.latex-project.org) resume
 - Github actions
 - Generates pdf resume file with each commit
 - Modular structure for easier maintenance
