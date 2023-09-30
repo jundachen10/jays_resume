@@ -1,4 +1,4 @@
-# jays_resume
+# [*View Resume*](https://github.com/jundachen10/jays_resume/blob/main/Jay_Chen_Resume.pdf)
 ## Features
 - [**LaTeX**](https://www.latex-project.org) resume
 - Github actions
