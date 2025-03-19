@@ -35,8 +35,12 @@
 % serif
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
-% \usepackage[default]{lato}
-\usepackage{tgheros}
+\usepackage[default]{lato}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -50,6 +54,9 @@
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-0.50in}
 \addtolength{\textheight}{1.0in}
+
+% body font color
+\color{text-grey}
 
 \urlstyle{same}
 
