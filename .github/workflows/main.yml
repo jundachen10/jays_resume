@@ -4,12 +4,13 @@ name: Build LaTeX document
 # is triggered by the "push" event. 
 # This means that the workflow will run automatically every time there is a push to the GitHub repository where this workflow is defined.
 
-# ignores any markdown files to avoid triggering actions on documentation pushes
+# ignores any listed files to avoid triggering actions on documentation pushes
 on: 
   push:
     paths-ignore:
       - '**.md'
       - '**.pdf'
+      - "**.docx" #added this for docx feature
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 
@@ -20,19 +21,30 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
 
-      - name: Compile Resume
+      - name: Compile Resume to PDF
         uses: dante-ev/latex-action@latest
         with:
           root_file: resume.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
 
+      - name: Install Pandoc
+        uses: pandoc/install-action@v1
+        with:
+          pandoc-version: '3.1.12'
+
+      - name: Convert latex to docx from markdown
+        run: |
+          pandoc resume.tex -t markdown -o resume.md
+          pandoc resume.md -o resume.docx
+
       - name: Commit Resume
         run: |
-          mv resume.pdf Jay.chen.resume.pdf
+          mv resume.pdf Jay.Chen.resume.pdf
+          mv resume.docx Jay.Chen.resume.docx
           git config --global user.name "jundachen10/jays_resume"
           git config --global user.email "jundachen10@gmail.com"
-          git add .
+          git add Jay.Chen.resume.pdf Jay.Chen.resume.docx
           git commit -m ':hammer: Generate Resume' || echo
           git push
 
