@@ -4,6 +4,10 @@
 - Github actions
 - Generates pdf resume file with each commit
 - Modular structure for easier maintenance
+
+## Update 3/20/25
+- Using sudo apt-get install pandoc is a common, reliable fallback in many workflows (e.g., seen in GitHub repos for document conversion). It’s slower than a prebuilt action but guaranteed to work on ubuntu-latest.
+- generates a markdown then uses that to make a docx
 ## What I learned
 - Github Actions triggers. In this repo we trigger the action on a push while ignoring triggers on markdown files with the paths-ignore: attribute.
 - Refactor out components in a LaTeX document by using \input{src/NAME}.
